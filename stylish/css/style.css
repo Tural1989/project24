@@ -225,8 +225,10 @@ body {
 
 #next_website {
     padding: 15rem 0;
-    background: url(bg.jpg);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(bg.jpg);
+    background: linear-gradient(90deg,
+     rgba(255, 255, 255, 0.1) 0%,
+      #ffffff1a 100%),
+       url(../bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -307,7 +309,6 @@ body {
     color: #212529;
 }
 
-#rp_content div a img {}
 
 .caption {
     display: flex;
