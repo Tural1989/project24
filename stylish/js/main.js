@@ -7,11 +7,8 @@ function show(){
   
  if(sidebar.classList.contains("active")){
     nav.innerHTML="<i class='fa-solid fa-x'></i>";
-
-    console.log("aktivdir");
  }else{
     nav.innerHTML="<i class='fa-solid fa-bars'></i>";
-   console.log("aktiv deyildir");
  }
 
 }

@@ -228,7 +228,7 @@ body {
     background: linear-gradient(90deg,
      rgba(255, 255, 255, 0.1) 0%,
       #ffffff1a 100%),
-       url(../bg.jpg);
+       url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -303,11 +303,27 @@ body {
     display: block;
     overflow: hidden;
     width: 100%;
+    transition: 0.3s;
+}
+
+#rp_content div a .caption{
+    transition: .3s
 }
 
 #rp_content div a:hover .caption {
     color: #212529;
 }
+
+
+#rp_content div a:hover .img_rp{
+   clip-path: inset(4%);
+}
+
+#rp_content div a:hover{
+    clip-path: inset(4%);
+ }
+ 
+
 
 
 .caption {
@@ -318,7 +334,6 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
 
 }
 
@@ -461,6 +476,12 @@ footer{
 #footer_content{
     color: #6c757d !important;
     font-size: 0.875em;
+}
+
+#rp_content div img{
+    transition: .3s;
+    clip-path: inset(0);
+
 }
 
 
